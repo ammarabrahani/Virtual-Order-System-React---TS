@@ -1,0 +1,85 @@
+.radio_check{
+    padding-bottom: 20px;
+}
+.order_status {
+    line-height: 18px;
+    border: 0px none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+.default {
+    background: lightgray;
+}
+.accepted_tag {
+    background: rgb(32, 201, 151);
+}
+.pending_tag {
+    background: rgb(250, 139, 12);
+}
+.canceled_by_distribution_tag{
+    // background: rgb(255, 77, 79);
+    background-color: #aa47bc;
+}
+// .canceled_by_retailer_tag {
+//     background-color: #6a2f74;
+// }
+.reviewed_tag {
+    background-color: #f69f35;
+}
+.ant-radio-button-wrapper-checked:not([class*=" ant-radio-button-wrapper-disabled"]).ant-radio-button-wrapper:first-child{
+    border-right-color: #aa47bc;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child{
+    border-color: #aa47bc;
+
+}
+.ant-radio-button-wrapper:hover{
+    color: #aa47bc;
+}
+.ant-radio-button-wrapper:focus-within {
+    box-shadow: none;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within{
+    box-shadow: 0 0 0 3px #f6e6ff;
+
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    z-index: 1;
+    color: #aa47bc;
+    background: #fff;
+    border-color: #aa47bc;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover{
+    color: #aa47bc;
+    border-color: #aa47bc;
+}
+.ant-radio-button-wrapper-checked:not([class*=" ant-radio-button-wrapper-disabled"]).ant-radio-button-wrapper{
+    border-right-color: #aa47bc;
+    border-left-color: #aa47bc;
+    border-color: #aa47bc;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active:before{
+    background-color: #aa47bc;
+
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):before {
+    background-color: #aa47bc;
+
+}
+
+.multiples{
+    display: block;
+}
+.retailer_details {
+    span{
+        display: block;
+        margin-bottom: 4px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

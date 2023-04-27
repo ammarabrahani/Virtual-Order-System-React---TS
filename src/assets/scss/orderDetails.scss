@@ -1,0 +1,48 @@
+.order_details_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 10px 10px;
+        span {
+            font-weight: 500;
+        }
+    }
+}
+.order_table {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin: 20px 0;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .title {
+        color: #aa47bc; 
+        padding: 10px;
+        margin-bottom: 0;
+    }
+}
+.update_stocks_registers {
+    margin-top: 0;
+}
+.ant-drawer-footer {
+    display: flex;
+    justify-content: flex-end;
+    .ant-btn {
+        &:first-child {
+            margin-right: 8px;
+        }
+    }
+}
+.quantity {
+    color: #aa47bc;
+    border: 0;
+    border-radius: 8px;
+    font-size: 19px;
+}
